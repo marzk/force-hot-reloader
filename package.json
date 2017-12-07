@@ -1,0 +1,33 @@
+{
+  "name": "force-hot-reloader",
+  "description": "",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marzk/force-hot-reloader.git"
+  },
+  "author": "MarzK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marzk/force-hot-reloader/issues"
+  },
+  "homepage": "https://github.com/marzk/force-hot-reloader#readme",
+  "dependencies": {
+    "anymatch": "^1.3.2",
+    "chokidar": "^1.7.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/anymatch": "^1.3.0",
+    "@types/chokidar": "^1.7.4",
+    "@types/lodash": "^4.14.88",
+    "typescript": "^2.6.2"
+  },
+  "files": ["dist"]
+}
